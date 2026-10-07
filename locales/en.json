@@ -1,0 +1,139 @@
+{
+  "language_name": "English",
+  "meta": {
+    "title": "Livro — Your day becomes a story",
+    "description": "Livro turns your daily diary into comic pages. Write about your day, and Livro draws it — with you as the main character. Every month becomes a chapter, every year a book.",
+    "og_description": "Write about your day. Livro turns it into a comic page starring you."
+  },
+  "nav": {
+    "label": "Main",
+    "home": "Livro home",
+    "about": "What is Livro",
+    "how": "How it works",
+    "pricing": "Pricing",
+    "team": "Team",
+    "cta": "Get Livro",
+    "language": "Language"
+  },
+  "hero": {
+    "eyebrow": "A diary that draws itself",
+    "title": "Your day becomes a <span class=\"hand\">story.</span>",
+    "lede": "Write a few lines about your day. Livro turns them into a comic page — starring you.",
+    "store_small": "Coming soon to the",
+    "secondary": "See how it works",
+    "note": "For iPhone · English, Türkçe &amp; Deutsch · Ages 16+",
+    "illustration": "A handwritten diary entry turning into a three-panel comic page",
+    "diary_date": "Tuesday, Oct 14",
+    "diary_text": "Missed the bus in the rain. Ela shared her umbrella and we ended up at our favourite ramen place. Best accident ever.",
+    "panel_wait": "WAIT!",
+    "panel_bubble": "best day!"
+  },
+  "about": {
+    "eyebrow": "What is Livro?",
+    "big": "Livro is a diary for people who never kept one. You write about your day in your own words — <em>Livro draws it as a comic page</em>, with a character that looks like you.",
+    "p1": "Most diaries end up as a wall of text nobody reads again — not even the person who wrote it. Livro keeps the part that matters (writing honestly about your day) and turns it into something you'll actually want to flip through.",
+    "p2": "One entry a day becomes one comic page. Each month's pages are gathered into a chapter on your shelf, and each year becomes a book you can read from the first page or download as a PDF.",
+    "p3": "The name comes from the Portuguese word for <em>book</em>: over time, your days add up to one."
+  },
+  "how": {
+    "eyebrow": "How it works",
+    "title": "Four steps from your day to your book.",
+    "s1_title": "Create your character",
+    "s1_text": "You're the main character of every comic. Pick your hair, eyes, face, build, clothes and accessories in a few simple steps — and change them whenever you like.",
+    "s2_title": "Write about your day",
+    "s2_text": "Write naturally, like you'd tell a friend. No prompts to follow, no format to get right. Pick black-and-white or colour, then you're done.",
+    "s3_title": "Get your comic page",
+    "s3_text": "Livro draws your day as a manga-style comic page. You can close the app while it works — we'll send a notification when it's ready.",
+    "s4_title": "Watch your book grow",
+    "s4_text": "Every page joins that month's chapter. Your calendar fills in, your shelf grows, and each year becomes a book."
+  },
+  "features": {
+    "eyebrow": "Features",
+    "title": "Small daily habit. Something worth keeping.",
+    "styles_title": "Two comic styles",
+    "styles_text": "Classic black-and-white manga, or full colour. Choose per entry — some days just feel like ink.",
+    "calendar_title": "Memory calendar",
+    "calendar_text": "Twelve weeks at a glance. Yellow days are memories you've kept, green is today. Missed yesterday? You have until noon to write it.",
+    "books_title": "Chapters &amp; books",
+    "books_text": "Pages are collected into monthly chapters and yearly books on your shelf. Read them like a real comic, page by page.",
+    "pdf_title": "PDF downloads",
+    "pdf_text": "Download any chapter or a whole year as a PDF with your name on the cover. Save it, print it, or AirDrop it to someone who was there.",
+    "lang_title": "English, Türkçe &amp; Deutsch",
+    "lang_text": "The whole app speaks all three languages. Switch any time from your profile — every screen changes at once.",
+    "privacy_title": "Private by design",
+    "privacy_text": "Sign in with Apple or Google — no new password. Your diary isn't used to train AI models, and deleting your account deletes your memories."
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "title": "One plan. Every comic.",
+    "intro": "Livro Premium turns your entries into comic pages and books. Subscriptions are handled by the App Store, so you can cancel anytime from your Apple account.",
+    "monthly_name": "Premium Monthly",
+    "monthly_price": "$12.99",
+    "per_month": "/ month",
+    "monthly_sub": "Flexible, cancel anytime",
+    "monthly_1": "Your own character in every comic",
+    "monthly_2": "A comic page every day",
+    "monthly_3": "Black-and-white or colour",
+    "monthly_4": "Monthly chapters &amp; yearly books",
+    "monthly_5": "PDF chapter &amp; book downloads",
+    "best_value": "Best value",
+    "yearly_name": "Premium Yearly",
+    "yearly_price": "$99.99",
+    "per_year": "/ year",
+    "yearly_sub": "About $8.33 a month — save 35%",
+    "yearly_1": "Everything in Premium Monthly",
+    "yearly_2": "Over four months free compared to monthly",
+    "yearly_3": "A full year of pages — a full book",
+    "note": "Prices shown in US dollars; the App Store shows the price in your local currency, and it may vary by country. Payment is charged to your Apple account at confirmation of purchase. Subscriptions renew automatically unless cancelled at least 24 hours before the end of the current period. Manage or cancel in your Apple account settings. See the <a href=\"terms.html#section-11\">Terms of Service</a>."
+  },
+  "team": {
+    "eyebrow": "Development team",
+    "title": "Made independently.",
+    "intro": "Livro is a small, independent project — no investors deciding what goes in your diary. Just people who wanted a reason to remember ordinary days.",
+    "baris_role": "Founder · Design &amp; engineering",
+    "baris_text": "Designs and builds the iPhone app and the comic pipeline.",
+    "v1_title": "Your diary is yours",
+    "v1_text": "You keep the rights to everything you write. Livro only uses it to make your comics.",
+    "v2_title": "Small on purpose",
+    "v2_text": "One entry a day. No feeds, no followers, no streak guilt.",
+    "v3_title": "Built to last",
+    "v3_text": "Your book is downloadable, so your memories never depend on an app.",
+    "deniz_role": "Founder &amp; Backend Developer",
+    "deniz_text": "Builds the backend that keeps your diary safe and turns each entry into a comic page."
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Questions, answered.",
+    "q1": "Do I need to be good at writing?",
+    "a1": "Not at all. Write the way you'd text a friend — a few sentences is enough. Livro works out the scenes, the people and the mood.",
+    "q2": "How often can I write?",
+    "a2": "Once a day — one entry becomes one comic page. Before noon you can still write about yesterday, in case the day got away from you.",
+    "q3": "Will the comic match exactly what happened?",
+    "a3": "Livro uses AI to draw your day, so it's an interpretation, not a photograph. It may picture a place or a moment differently from how you remember it — that's part of the charm.",
+    "q4": "Is my diary used to train AI?",
+    "a4": "No. Livro doesn't train its own models on your diary and doesn't opt your content into third-party training. The <a href=\"privacy.html\">Privacy Policy</a> explains exactly what is sent where, and why.",
+    "q5": "Can I keep my comics if I leave?",
+    "a5": "Yes. Premium members can download any chapter or a whole year as a PDF. We recommend downloading the pages you love before deleting your account, because deletion is permanent.",
+    "q6": "How do I cancel my subscription?",
+    "a6": "In the app, go to Profile → Premium (or Settings → Subscription), which opens Apple's subscription page. You can also cancel from your Apple account settings. Premium stays active until the end of the period you've paid for.",
+    "q7": "Which devices are supported?",
+    "a7": "Livro is an iPhone app, available through the Apple App Store, for anyone aged 16 and older."
+  },
+  "cta": {
+    "title": "Tomorrow, today will be a <span class=\"hand\">memory.</span>",
+    "text": "Start writing it down — Livro will draw the rest.",
+    "button": "Coming soon to the App Store"
+  },
+  "footer": {
+    "made": "© Livro",
+    "contact": "Contact",
+    "label": "Footer",
+    "about": "About"
+  },
+  "legal": {
+    "eyebrow": "Legal",
+    "contents": "Contents",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy"
+  }
+}

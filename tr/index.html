@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Livro — Gününüz bir hikâyeye dönüşür</title>
+<meta name="description" content="Livro günlüğünüzü çizgi roman sayfalarına dönüştürür. Gününüzü yazın, Livro sizi ana karakter yaparak çizsin. Her ay bir bölüm, her yıl bir kitap olur.">
+<meta property="og:title" content="Livro — Gününüz bir hikâyeye dönüşür">
+<meta property="og:description" content="Gününüzü yazın. Livro onu başrolünde sizin olduğunuz bir çizgi roman sayfasına dönüştürsün.">
+<meta property="og:image" content="../assets/livro-wordmark.png">
+<meta name="theme-color" content="#f7f4ee">
+<link rel="alternate" hreflang="en" href="../index.html">
+<link rel="alternate" hreflang="tr" href="../tr/index.html">
+<link rel="alternate" hreflang="de" href="../de/index.html">
+<link rel="alternate" hreflang="x-default" href="../index.html">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../styles.css">
+
+</head>
+<body>
+
+<!-- Shared drawing defs: the manga screentone used in the comic panels. -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <pattern id="tone" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.1" fill="var(--apricot)"/>
+    </pattern>
+  </defs>
+</svg>
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="Livro ana sayfa"><img src="../assets/livro-wordmark.png" alt="Livro" width="83" height="48"></a>
+    <nav aria-label="Ana menü">
+      <a href="#about">Livro nedir</a>
+      <a href="#how">Nasıl çalışır</a>
+      <a href="#pricing">Fiyatlar</a>
+      <a href="#team">Ekip</a>
+      <span class="lang-switch" role="group" aria-label="Dil"><a href="../index.html" hreflang="en" lang="en" title="English" data-lang="en">EN</a><a href="../tr/index.html" hreflang="tr" lang="tr" title="Türkçe" data-lang="tr" aria-current="true">TR</a><a href="../de/index.html" hreflang="de" lang="de" title="Deutsch" data-lang="de">DE</a></span><script>document.querySelectorAll('.lang-switch a').forEach(a=>a.addEventListener('click',()=>{try{localStorage.setItem('livro-lang',a.dataset.lang)}catch(e){}}))</script>
+      <a class="btn btn-primary" href="#download">Livro'yu edinin</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">Kendini çizen bir günlük</p>
+        <h1>Gününüz bir <span class="hand">hikâyeye</span> dönüşür.</h1>
+        <p class="lede">Gününüz hakkında birkaç satır yazın. Livro bunları başrolünde sizin olduğunuz bir çizgi roman sayfasına dönüştürsün.</p>
+        <div class="hero-actions" id="download">
+          <a class="btn btn-primary" href="#" aria-disabled="true">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.6c0-2.4 2-3.5 2-3.6-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.2-2.8.8-3.5.8-.7 0-1.8-.8-3-.8-1.5 0-3 .9-3.8 2.3-1.6 2.8-.4 7 1.2 9.3.8 1.1 1.7 2.4 2.9 2.3 1.2 0 1.6-.7 3-.7s1.8.7 3 .7c1.3 0 2.1-1.1 2.8-2.3.9-1.3 1.3-2.6 1.3-2.6s-2.5-1-2.5-3.6zM14.1 5.6c.6-.8 1.1-1.8 1-2.9-.9 0-2 .6-2.7 1.4-.6.7-1.1 1.8-1 2.8 1 .1 2.1-.5 2.7-1.3z"/></svg>
+            <span><small>Çok yakında</small>App Store</span>
+          </a>
+          <a class="btn" href="#how">Nasıl çalıştığını görün</a>
+        </div>
+        <p class="hero-note">iPhone için · English, Türkçe &amp; Deutsch · 16 yaş ve üzeri</p>
+      </div>
+
+      <div class="transform" role="img" aria-label="El yazısıyla yazılmış bir günlük sayfasının üç kareli bir çizgi roman sayfasına dönüşmesi">
+        <div class="diary-card">
+          <div class="date">Salı, 14 Ekim</div>
+          Yağmurda otobüsü kaçırdım. Ela şemsiyesini paylaştı, sonunda en sevdiğimiz ramen yerine gittik. Hayatımın en güzel tesadüfü.
+        </div>
+        <svg class="arrow" viewBox="0 0 48 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 14c10-8 22-8 38-2"/><path d="M34 5l8 7-9 4"/></svg>
+        <div class="comic-page">
+          <!-- Panel 1: the bus leaves in the rain -->
+          <div class="panel wide">
+            <svg viewBox="0 0 200 90" fill="none" stroke="var(--ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect class="tone" x="0" y="0" width="200" height="90" stroke="none" opacity=".35"/>
+              <path d="M0 72h200" />
+              <rect x="96" y="30" width="86" height="38" rx="6" fill="var(--surface)"/>
+              <path d="M104 40h14v12h-14zM124 40h14v12h-14zM144 40h14v12h-14zM164 40h12v12h-12z"/>
+              <circle cx="114" cy="70" r="6" fill="var(--surface)"/><circle cx="164" cy="70" r="6" fill="var(--surface)"/>
+              <path d="M84 40h-14M86 50h-20M84 60h-12" stroke-width="1.6"/>
+              <circle cx="36" cy="34" r="8" fill="var(--surface)"/>
+              <path d="M36 42v18M36 48l-10 6M36 48l12-8M36 60l-7 11M36 60l7 11"/>
+              <path d="M12 8l-4 12M30 4l-4 12M58 10l-4 12M80 6l-4 12M130 6l-4 12M160 4l-4 12M190 10l-4 12" stroke-width="1.4" opacity=".7"/>
+              <text x="44" y="22" font-family="var(--hand)" font-size="16" font-weight="700" fill="var(--ink)" stroke="none">DUR!</text>
+            </svg>
+          </div>
+          <!-- Panel 2: sharing the umbrella -->
+          <div class="panel">
+            <svg viewBox="0 0 100 120" fill="none" stroke="var(--ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 46c4-24 68-24 72 0z" fill="var(--indigo)" opacity=".85" stroke="var(--ink)"/>
+              <path d="M50 30v26"/>
+              <circle cx="36" cy="62" r="8" fill="var(--surface)"/>
+              <circle cx="64" cy="62" r="8" fill="var(--surface)"/>
+              <path d="M36 70v24M64 70v24M36 78l14-14M64 78l-14-14M36 94l-6 18M36 94l6 18M64 94l-6 18M64 94l6 18"/>
+              <path d="M33 61h0M39 61h0M61 61h0M67 61h0" stroke-width="3"/>
+              <path d="M33 65q3 2 6 0M61 65q3 2 6 0" stroke-width="1.5"/>
+              <path d="M8 14l-3 9M92 10l-3 9M20 6l-3 9M82 22l-3 9" stroke-width="1.3" opacity=".7"/>
+            </svg>
+          </div>
+          <!-- Panel 3: ramen -->
+          <div class="panel">
+            <svg viewBox="0 0 100 120" fill="none" stroke="var(--ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect class="tone" x="0" y="0" width="100" height="120" stroke="none" opacity=".3"/>
+              <path d="M8 22c0-12 50-12 50 0s-14 12-22 12l-8 8 2-9C14 32 8 28 8 22z" fill="var(--surface)"/>
+              <text x="33" y="27" text-anchor="middle" font-family="var(--hand)" font-size="13" font-weight="700" fill="var(--ink)" stroke="none">harika gün!</text>
+              <path d="M18 78h64c0 18-14 28-32 28S18 96 18 78z" fill="var(--surface)"/>
+              <path d="M30 78c2-10 6-10 8 0M44 78c2-12 6-12 8 0M58 78c2-10 6-10 8 0" stroke-width="1.6"/>
+              <path d="M70 52l-16 24M78 54l-18 22" stroke-width="2.4"/>
+              <path d="M36 62c-2-6 2-8 0-14M50 60c-2-6 2-8 0-14" stroke-width="1.4" opacity=".6"/>
+              <circle cx="40" cy="80" r="4" fill="var(--apricot)" stroke="none"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What is Livro -->
+  <section id="about" class="band">
+    <div class="wrap about-grid">
+      <div>
+        <p class="eyebrow">Livro nedir?</p>
+        <p class="big">Livro, hiç günlük tutmamış olanlar için bir günlük. Gününüzü kendi kelimelerinizle yazarsınız — <em>Livro onu bir çizgi roman sayfası olarak çizer</em>, size benzeyen bir karakterle.</p>
+      </div>
+      <div>
+        <p>Çoğu günlük, kimsenin — yazanın bile — tekrar okumadığı bir metin yığınına dönüşür. Livro işin önemli kısmını (gününüzü içtenlikle yazmayı) korur ve onu gerçekten karıştırmak isteyeceğiniz bir şeye dönüştürür.</p>
+        <p>Günde bir yazı, bir çizgi roman sayfası olur. Her ayın sayfaları rafınızda bir bölümde toplanır, her yıl da ilk sayfadan okuyabileceğiniz ya da PDF olarak indirebileceğiniz bir kitaba dönüşür.</p>
+        <p>Adı, Portekizcede <em>kitap</em> anlamına gelen kelimeden geliyor: zamanla günleriniz bir kitap olur.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section id="how">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Nasıl çalışır</p>
+        <h2>Gününüzden kitabınıza dört adım.</h2>
+      </div>
+      <ol class="steps">
+        <li class="step">
+          <h3>Karakterinizi oluşturun</h3>
+          <p>Her çizgi romanın ana karakteri sizsiniz. Saçınızı, gözlerinizi, yüzünüzü, vücut yapınızı, kıyafetlerinizi ve aksesuarlarınızı birkaç basit adımda seçin — istediğiniz zaman değiştirin.</p>
+        </li>
+        <li class="step">
+          <h3>Gününüzü yazın</h3>
+          <p>Bir arkadaşınıza anlatır gibi doğal bir şekilde yazın. Takip edilecek sorular ya da uyulacak bir biçim yok. Siyah-beyaz veya renkli seçin, hepsi bu.</p>
+        </li>
+        <li class="step">
+          <h3>Çizgi roman sayfanızı alın</h3>
+          <p>Livro gününüzü manga tarzında bir çizgi roman sayfası olarak çizer. Bu sırada uygulamayı kapatabilirsiniz — sayfa hazır olduğunda bildirim göndeririz.</p>
+        </li>
+        <li class="step">
+          <h3>Kitabınızın büyümesini izleyin</h3>
+          <p>Her sayfa o ayın bölümüne eklenir. Takviminiz dolar, rafınız büyür ve her yıl bir kitaba dönüşür.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="band">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Özellikler</p>
+        <h2>Küçük bir günlük alışkanlık. Saklamaya değer bir şey.</h2>
+      </div>
+      <div class="features">
+        <div class="feature">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 12h18M12 3v9"/></svg></div>
+          <h3>İki çizgi roman stili</h3>
+          <p>Klasik siyah-beyaz manga ya da tam renkli. Her yazı için ayrı seçin — bazı günler sadece mürekkep ister.</p>
+        </div>
+        <div class="feature">
+          <div class="mini-cal" aria-hidden="true">
+            <i></i><i></i><i class="y"></i><i class="y"></i><i></i><i class="y"></i><i class="y"></i><i class="y"></i><i></i><i class="y"></i><i class="y"></i><i class="t"></i>
+          </div>
+          <h3>Anı Takvimi</h3>
+          <p>On iki hafta tek bakışta. Sarı günler sakladığınız anılar, yeşil gün bugün. Dünü mü kaçırdınız? Yazmak için öğlene kadar vaktiniz var.</p>
+        </div>
+        <div class="feature">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V5a2 2 0 0 1 2-2h4v18H6a2 2 0 0 1-2-2zM10 3h4v18h-4zM15 4l4-1 3 17-4 1z"/></svg></div>
+          <h3>Bölümler ve kitaplar</h3>
+          <p>Sayfalar rafınızda aylık bölümler ve yıllık kitaplar halinde toplanır. Onları gerçek bir çizgi roman gibi sayfa sayfa okuyun.</p>
+        </div>
+        <div class="feature">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5M4 19h16"/></svg></div>
+          <h3>PDF indirme</h3>
+          <p>Herhangi bir bölümü ya da bütün bir yılı kapağında adınız olan bir PDF olarak indirin. Kaydedin, yazdırın ya da o gün orada olan birine AirDrop ile gönderin.</p>
+        </div>
+        <div class="feature">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg></div>
+          <h3>English, Türkçe &amp; Deutsch</h3>
+          <p>Uygulamanın tamamı üç dili de konuşur. Profilinizden istediğiniz zaman değiştirin — tüm ekranlar aynı anda değişir.</p>
+        </div>
+        <div class="feature">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></div>
+          <h3>Gizlilik odaklı tasarım</h3>
+          <p>Apple veya Google ile giriş yapın — yeni bir parolaya gerek yok. Günlüğünüz yapay zekâ modellerini eğitmek için kullanılmaz ve hesabınızı sildiğinizde anılarınız da silinir.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Fiyatlar</p>
+        <h2>Tek plan. Tüm çizgi romanlar.</h2>
+        <p>Livro Premium yazılarınızı çizgi roman sayfalarına ve kitaplara dönüştürür. Abonelikler App Store üzerinden yönetilir; Apple hesabınızdan istediğiniz zaman iptal edebilirsiniz.</p>
+      </div>
+      <div class="plans two">
+        <div class="plan">
+          <h3>Premium Aylık</h3>
+          <div class="price">12,99 $<span> / ay</span></div>
+          <div class="sub">Esnek, istediğiniz zaman iptal edin</div>
+          <ul>
+            <li>Her çizgi romanda kendi karakteriniz</li>
+            <li>Her gün bir çizgi roman sayfası</li>
+            <li>Siyah-beyaz veya renkli</li>
+            <li>Aylık bölümler ve yıllık kitaplar</li>
+            <li>Bölüm ve kitap PDF'i indirme</li>
+          </ul>
+        </div>
+        <div class="plan featured">
+          <span class="tag">En avantajlı</span>
+          <h3>Premium Yıllık</h3>
+          <div class="price">99,99 $<span> / yıl</span></div>
+          <div class="sub">Aylık yaklaşık 8,33 $ — %35 tasarruf</div>
+          <ul>
+            <li>Premium Aylık'taki her şey</li>
+            <li>Aylık plana göre dört aydan fazlası bedava</li>
+            <li>Tam bir yıl sayfa — tam bir kitap</li>
+          </ul>
+        </div>
+      </div>
+      <p class="pricing-note">Fiyatlar ABD doları olarak gösterilmiştir; App Store fiyatı yerel para biriminizde gösterir ve fiyat ülkeye göre değişebilir. Ödeme, satın alma onaylandığında Apple hesabınızdan tahsil edilir. Abonelikler, mevcut dönemin bitiminden en az 24 saat önce iptal edilmedikçe otomatik olarak yenilenir. Apple hesap ayarlarınızdan yönetebilir veya iptal edebilirsiniz. Ayrıntılar için <a href="terms.html#section-11">Kullanım Koşulları</a>'na bakın.</p>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section id="team" class="band">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Geliştirici ekip</p>
+        <h2>Bağımsız olarak geliştirildi.</h2>
+        <p>Livro küçük ve bağımsız bir proje — günlüğünüze ne gireceğine karar veren yatırımcılar yok. Sadece sıradan günleri hatırlamak için bir sebep isteyen insanlar var.</p>
+      </div>
+      <div class="team">
+        <div class="member">
+          <div class="avatar" aria-hidden="true">B</div>
+          <div>
+            <h3>Barış Görkem Yaşar</h3>
+            <div class="role">Kurucu · Tasarım ve geliştirme</div>
+            <p>iPhone uygulamasını ve çizgi roman üretim sürecini tasarlıyor ve geliştiriyor.</p>
+          </div>
+        </div>
+        <div class="member">
+          <div class="avatar" aria-hidden="true">D</div>
+          <div>
+            <h3><a href="https://www.linkedin.com/in/denizgozcu/" target="_blank" rel="noopener">Deniz Gözcü</a></h3>
+            <div class="role">Kurucu &amp; Backend Geliştirici</div>
+            <p>Günlüğünüzü güvende tutan ve her yazıyı bir çizgi roman sayfasına dönüştüren sunucu altyapısını geliştiriyor.</p>
+            <a class="member-link" href="https://www.linkedin.com/in/denizgozcu/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="values">
+        <div class="value">
+          <h3>Günlüğünüz sizindir</h3>
+          <p>Yazdığınız her şeyin hakları sizde kalır. Livro onu yalnızca çizgi romanlarınızı oluşturmak için kullanır.</p>
+        </div>
+        <div class="value">
+          <h3>Bilerek küçük</h3>
+          <p>Günde bir yazı. Akış yok, takipçi yok, seri kaçırma suçluluğu yok.</p>
+        </div>
+        <div class="value">
+          <h3>Kalıcı olsun diye</h3>
+          <p>Kitabınızı indirebilirsiniz; anılarınız hiçbir zaman bir uygulamaya bağlı kalmaz.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">SSS</p>
+        <h2>Sorular ve cevaplar.</h2>
+      </div>
+      <div class="faq">
+        <details><summary>İyi yazabiliyor olmam gerekir mi?</summary><p>Hiç gerekmez. Bir arkadaşınıza mesaj atar gibi yazın — birkaç cümle yeterli. Sahneleri, kişileri ve havayı Livro çıkarır.</p></details>
+        <details><summary>Ne sıklıkla yazabilirim?</summary><p>Günde bir kez — bir yazı bir çizgi roman sayfası olur. Gün elinizden kaçtıysa, öğlene kadar dünü de yazabilirsiniz.</p></details>
+        <details><summary>Çizgi roman yaşananlarla birebir aynı mı olacak?</summary><p>Livro gününüzü yapay zekâ ile çizer; yani bu bir fotoğraf değil, bir yorumdur. Bir yeri ya da anı hatırladığınızdan farklı çizebilir — işin tadı da biraz burada.</p></details>
+        <details><summary>Günlüğüm yapay zekâ eğitimi için kullanılıyor mu?</summary><p>Hayır. Livro kendi modellerini günlüğünüzle eğitmez ve içeriğinizi üçüncü taraf eğitim programlarına dahil etmez. Neyin nereye ve neden gönderildiğini <a href="privacy.html">Gizlilik Politikası</a> ayrıntılı olarak açıklar.</p></details>
+        <details><summary>Ayrılırsam çizgi romanlarımı saklayabilir miyim?</summary><p>Evet. Premium üyeler herhangi bir bölümü ya da bütün bir yılı PDF olarak indirebilir. Hesap silme işlemi kalıcı olduğu için, hesabınızı silmeden önce sevdiğiniz sayfaları indirmenizi öneririz.</p></details>
+        <details><summary>Aboneliğimi nasıl iptal ederim?</summary><p>Uygulamada Profil → Premium'a (veya Ayarlar → Abonelik'e) gidin; Apple'ın abonelik sayfası açılır. Apple hesap ayarlarınızdan da iptal edebilirsiniz. Premium, ödemesini yaptığınız dönemin sonuna kadar etkin kalır.</p></details>
+        <details><summary>Hangi cihazlar destekleniyor?</summary><p>Livro, Apple App Store üzerinden sunulan ve 16 yaş ve üzeri herkesin kullanabileceği bir iPhone uygulamasıdır.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta band">
+    <div class="wrap">
+      <h2>Yarın, bugün bir <span class="hand">anı</span> olacak.</h2>
+      <p>Yazmaya başlayın — gerisini Livro çizsin.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#" aria-disabled="true">Çok yakında App Store'da</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <span>© Livro · İletişim: <a href="mailto:hellolivro@gmail.com">hellolivro@gmail.com</a></span>
+    <nav aria-label="Alt bilgi">
+      <a href="index.html#about">Hakkında</a>
+      <a href="index.html#pricing">Fiyatlar</a>
+      <a href="index.html#team">Ekip</a>
+      <a href="terms.html">Kullanım Koşulları</a>
+      <a href="privacy.html">Gizlilik Politikası</a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+  // The App Store link isn't live yet; keep the buttons from jumping to the top.
+  document.querySelectorAll('a[aria-disabled="true"]').forEach(a =>
+    a.addEventListener('click', e => e.preventDefault()));
+</script>
+</body>
+</html>

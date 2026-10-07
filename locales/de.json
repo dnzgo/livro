@@ -1,0 +1,139 @@
+{
+  "language_name": "Deutsch",
+  "meta": {
+    "title": "Livro — Dein Tag wird zur Geschichte",
+    "description": "Livro verwandelt dein Tagebuch in Comicseiten. Schreib über deinen Tag, und Livro zeichnet ihn – mit dir als Hauptfigur. Jeder Monat wird ein Kapitel, jedes Jahr ein Buch.",
+    "og_description": "Schreib über deinen Tag. Livro macht daraus eine Comicseite mit dir in der Hauptrolle."
+  },
+  "nav": {
+    "label": "Hauptmenü",
+    "home": "Livro Startseite",
+    "about": "Was ist Livro",
+    "how": "So funktioniert's",
+    "pricing": "Preise",
+    "team": "Team",
+    "cta": "Livro holen",
+    "language": "Sprache"
+  },
+  "hero": {
+    "eyebrow": "Ein Tagebuch, das sich selbst zeichnet",
+    "title": "Dein Tag wird zur <span class=\"hand\">Geschichte.</span>",
+    "lede": "Schreib ein paar Zeilen über deinen Tag. Livro macht daraus eine Comicseite – mit dir in der Hauptrolle.",
+    "store_small": "Bald im",
+    "secondary": "So funktioniert's",
+    "note": "Für iPhone · English, Türkçe &amp; Deutsch · Ab 16 Jahren",
+    "illustration": "Ein handschriftlicher Tagebucheintrag, der zu einer Comicseite mit drei Panels wird",
+    "diary_date": "Dienstag, 14. Okt.",
+    "diary_text": "Im Regen den Bus verpasst. Ela hat ihren Schirm mit mir geteilt, und am Ende saßen wir in unserem Lieblings-Ramenladen. Bester Zufall überhaupt.",
+    "panel_wait": "WARTE!",
+    "panel_bubble": "toller Tag!"
+  },
+  "about": {
+    "eyebrow": "Was ist Livro?",
+    "big": "Livro ist ein Tagebuch für alle, die nie eins geführt haben. Du schreibst über deinen Tag, in deinen eigenen Worten – <em>Livro zeichnet ihn als Comicseite</em>, mit einer Figur, die aussieht wie du.",
+    "p1": "Die meisten Tagebücher werden zu einer Textwand, die niemand mehr liest – nicht einmal, wer sie geschrieben hat. Livro behält das Wichtige (ehrlich über deinen Tag zu schreiben) und macht daraus etwas, durch das du wirklich gern blätterst.",
+    "p2": "Ein Eintrag pro Tag wird zu einer Comicseite. Die Seiten eines Monats werden zu einem Kapitel in deinem Regal, und jedes Jahr wird zu einem Buch, das du von der ersten Seite an lesen oder als PDF herunterladen kannst.",
+    "p3": "Der Name kommt vom portugiesischen Wort für <em>Buch</em>: Mit der Zeit werden deine Tage zu einem."
+  },
+  "how": {
+    "eyebrow": "So funktioniert's",
+    "title": "Vier Schritte von deinem Tag zu deinem Buch.",
+    "s1_title": "Erstelle deine Figur",
+    "s1_text": "Du bist die Hauptfigur jedes Comics. Wähle in wenigen Schritten Haare, Augen, Gesicht, Statur, Kleidung und Accessoires – und ändere sie, wann immer du willst.",
+    "s2_title": "Schreib über deinen Tag",
+    "s2_text": "Schreib ganz natürlich, als würdest du es einem Freund erzählen. Keine Vorgaben, kein Format. Wähle Schwarz-Weiß oder Farbe – fertig.",
+    "s3_title": "Erhalte deine Comicseite",
+    "s3_text": "Livro zeichnet deinen Tag als Comicseite im Manga-Stil. Du kannst die App währenddessen schließen – wir benachrichtigen dich, sobald sie fertig ist.",
+    "s4_title": "Sieh dein Buch wachsen",
+    "s4_text": "Jede Seite kommt ins Kapitel des Monats. Dein Kalender füllt sich, dein Regal wächst, und jedes Jahr wird zu einem Buch."
+  },
+  "features": {
+    "eyebrow": "Funktionen",
+    "title": "Eine kleine tägliche Gewohnheit. Etwas, das bleibt.",
+    "styles_title": "Zwei Comic-Stile",
+    "styles_text": "Klassischer Schwarz-Weiß-Manga oder in voller Farbe. Wähle für jeden Eintrag neu – manche Tage fühlen sich einfach nach Tinte an.",
+    "calendar_title": "Erinnerungskalender",
+    "calendar_text": "Zwölf Wochen auf einen Blick. Gelbe Tage sind festgehaltene Erinnerungen, Grün ist heute. Gestern verpasst? Du hast bis mittags Zeit, ihn nachzutragen.",
+    "books_title": "Kapitel &amp; Bücher",
+    "books_text": "Die Seiten werden in deinem Regal zu Monatskapiteln und Jahresbüchern gesammelt. Lies sie wie einen echten Comic, Seite für Seite.",
+    "pdf_title": "PDF-Downloads",
+    "pdf_text": "Lade jedes Kapitel oder ein ganzes Jahr als PDF mit deinem Namen auf dem Cover herunter. Speichern, drucken oder per AirDrop an jemanden schicken, der dabei war.",
+    "lang_title": "English, Türkçe &amp; Deutsch",
+    "lang_text": "Die ganze App spricht alle drei Sprachen. Wechsle jederzeit in deinem Profil – alle Bildschirme ändern sich sofort.",
+    "privacy_title": "Privatsphäre zuerst",
+    "privacy_text": "Melde dich mit Apple oder Google an – kein neues Passwort. Dein Tagebuch wird nicht zum Training von KI-Modellen verwendet, und wenn du dein Konto löschst, werden auch deine Erinnerungen gelöscht."
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "title": "Ein Abo. Jeder Comic.",
+    "intro": "Livro Premium macht aus deinen Einträgen Comicseiten und Bücher. Abonnements laufen über den App Store, du kannst also jederzeit über deinen Apple-Account kündigen.",
+    "monthly_name": "Premium Monatlich",
+    "monthly_price": "12,99 $",
+    "per_month": "/ Monat",
+    "monthly_sub": "Flexibel, jederzeit kündbar",
+    "monthly_1": "Deine eigene Figur in jedem Comic",
+    "monthly_2": "Jeden Tag eine Comicseite",
+    "monthly_3": "Schwarz-Weiß oder Farbe",
+    "monthly_4": "Monatskapitel &amp; Jahresbücher",
+    "monthly_5": "Kapitel und Bücher als PDF",
+    "best_value": "Bester Preis",
+    "yearly_name": "Premium Jährlich",
+    "yearly_price": "99,99 $",
+    "per_year": "/ Jahr",
+    "yearly_sub": "Etwa 8,33 $ im Monat – 35 % gespart",
+    "yearly_1": "Alles aus Premium Monatlich",
+    "yearly_2": "Über vier Monate gratis gegenüber monatlich",
+    "yearly_3": "Ein ganzes Jahr Seiten – ein ganzes Buch",
+    "note": "Preise in US-Dollar; der App Store zeigt den Preis in deiner Landeswährung an, er kann je nach Land variieren. Die Zahlung wird bei Kaufbestätigung über deinen Apple-Account abgerechnet. Abonnements verlängern sich automatisch, sofern sie nicht mindestens 24 Stunden vor Ende des laufenden Zeitraums gekündigt werden. Verwalten oder kündigen kannst du sie in den Einstellungen deines Apple-Accounts. Siehe <a href=\"terms.html#section-11\">Nutzungsbedingungen</a>."
+  },
+  "team": {
+    "eyebrow": "Entwicklerteam",
+    "title": "Unabhängig entwickelt.",
+    "intro": "Livro ist ein kleines, unabhängiges Projekt – keine Investoren, die mitbestimmen, was in dein Tagebuch kommt. Nur Menschen, die einen Grund wollten, sich an gewöhnliche Tage zu erinnern.",
+    "baris_role": "Gründer · Design &amp; Entwicklung",
+    "baris_text": "Gestaltet und entwickelt die iPhone-App und die Comic-Pipeline.",
+    "v1_title": "Dein Tagebuch gehört dir",
+    "v1_text": "Die Rechte an allem, was du schreibst, bleiben bei dir. Livro nutzt es nur, um deine Comics zu erstellen.",
+    "v2_title": "Bewusst klein",
+    "v2_text": "Ein Eintrag pro Tag. Kein Feed, keine Follower, kein schlechtes Gewissen wegen Serien.",
+    "v3_title": "Gemacht, um zu bleiben",
+    "v3_text": "Dein Buch lässt sich herunterladen – deine Erinnerungen hängen nie von einer App ab.",
+    "deniz_role": "Gründer &amp; Backend-Entwickler",
+    "deniz_text": "Entwickelt das Backend, das dein Tagebuch sicher aufbewahrt und jeden Eintrag in eine Comicseite verwandelt."
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Fragen und Antworten.",
+    "q1": "Muss ich gut schreiben können?",
+    "a1": "Überhaupt nicht. Schreib so, wie du einem Freund eine Nachricht schickst – ein paar Sätze reichen. Szenen, Personen und Stimmung findet Livro selbst.",
+    "q2": "Wie oft kann ich schreiben?",
+    "a2": "Einmal am Tag – ein Eintrag wird zu einer Comicseite. Bis mittags kannst du noch über gestern schreiben, falls dir der Tag davongelaufen ist.",
+    "q3": "Zeigt der Comic genau, was passiert ist?",
+    "a3": "Livro zeichnet deinen Tag mit KI – es ist also eine Interpretation, kein Foto. Ein Ort oder Moment kann anders aussehen, als du ihn in Erinnerung hast. Das gehört zum Charme.",
+    "q4": "Wird mein Tagebuch zum Training von KI verwendet?",
+    "a4": "Nein. Livro trainiert keine eigenen Modelle mit deinem Tagebuch und gibt deine Inhalte nicht für Trainingsprogramme Dritter frei. Was wohin gesendet wird und warum, erklärt die <a href=\"privacy.html\">Datenschutzerklärung</a>.",
+    "q5": "Kann ich meine Comics behalten, wenn ich gehe?",
+    "a5": "Ja. Premium-Mitglieder können jedes Kapitel oder ein ganzes Jahr als PDF herunterladen. Da die Löschung endgültig ist, empfehlen wir, deine Lieblingsseiten vor dem Löschen deines Kontos herunterzuladen.",
+    "q6": "Wie kündige ich mein Abonnement?",
+    "a6": "Öffne in der App Profil → Premium (oder Einstellungen → Abonnement); dort öffnet sich Apples Abo-Seite. Du kannst auch in den Einstellungen deines Apple-Accounts kündigen. Premium bleibt bis zum Ende des bezahlten Zeitraums aktiv.",
+    "q7": "Welche Geräte werden unterstützt?",
+    "a7": "Livro ist eine iPhone-App, erhältlich im Apple App Store, für alle ab 16 Jahren."
+  },
+  "cta": {
+    "title": "Morgen ist heute eine <span class=\"hand\">Erinnerung.</span>",
+    "text": "Fang an, sie aufzuschreiben – den Rest zeichnet Livro.",
+    "button": "Bald im App Store"
+  },
+  "footer": {
+    "made": "© Livro",
+    "contact": "Kontakt",
+    "label": "Fußzeile",
+    "about": "Über uns"
+  },
+  "legal": {
+    "eyebrow": "Rechtliches",
+    "contents": "Inhalt",
+    "terms": "Nutzungsbedingungen",
+    "privacy": "Datenschutzerklärung"
+  }
+}

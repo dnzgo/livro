@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Livro — Your day becomes a story</title>
+<meta name="description" content="Livro turns your daily diary into comic pages. Write about your day, and Livro draws it — with you as the main character. Every month becomes a chapter, every year a book.">
+<meta property="og:title" content="Livro — Your day becomes a story">
+<meta property="og:description" content="Write about your day. Livro turns it into a comic page starring you.">
+<meta property="og:image" content="assets/livro-wordmark.png">
+<meta name="theme-color" content="#f7f4ee">
+<link rel="alternate" hreflang="en" href="index.html">
+<link rel="alternate" hreflang="tr" href="tr/index.html">
+<link rel="alternate" hreflang="de" href="de/index.html">
+<link rel="alternate" hreflang="x-default" href="index.html">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+<script>
+(function () {
+  try {
+    if (localStorage.getItem('livro-lang')) return;
+    var supported = ["tr", "de"];
+    var prefs = navigator.languages || [navigator.language || ''];
+    for (var i = 0; i < prefs.length; i++) {
+      var code = (prefs[i] || '').slice(0, 2).toLowerCase();
+      if (code === "en") return;
+      if (supported.indexOf(code) !== -1) { location.replace(code + '/' + location.hash); return; }
+    }
+  } catch (e) {}
+})();
+</script>
+</head>
+<body>
+
+<!-- Shared drawing defs: the manga screentone used in the comic panels. -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <pattern id="tone" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.1" fill="var(--apricot)"/>
+    </pattern>
+  </defs>
+</svg>
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="Livro home"><img src="assets/livro-wordmark.png" alt="Livro" width="83" height="48"></a>
+    <nav aria-label="Main">
+      <a href="#about">What is Livro</a>
+      <a href="#how">How it works</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#team">Team</a>
+      <span class="lang-switch" role="group" aria-label="Language"><a href="index.html" hreflang="en" lang="en" title="English" data-lang="en" aria-current="true">EN</a><a href="tr/index.html" hreflang="tr" lang="tr" title="Türkçe" data-lang="tr">TR</a><a href="de/index.html" hreflang="de" lang="de" title="Deutsch" data-lang="de">DE</a></span><script>document.querySelectorAll('.lang-switch a').forEach(a=>a.addEventListener('click',()=>{try{localStorage.setItem('livro-lang',a.dataset.lang)}catch(e){}}))</script>
+      <a class="btn btn-primary" href="#download">Get Livro</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">A diary that draws itself</p>
+        <h1>Your day becomes a <span class="hand">story.</span></h1>
+        <p class="lede">Write a few lines about your day. Livro turns them into a comic page — starring you.</p>
+        <div class="hero-actions" id="download">
+          <a class="btn btn-primary" href="#" aria-disabled="true">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.6c0-2.4 2-3.5 2-3.6-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.2-2.8.8-3.5.8-.7 0-1.8-.8-3-.8-1.5 0-3 .9-3.8 2.3-1.6 2.8-.4 7 1.2 9.3.8 1.1 1.7 2.4 2.9 2.3 1.2 0 1.6-.7 3-.7s1.8.7 3 .7c1.3 0 2.1-1.1 2.8-2.3.9-1.3 1.3-2.6 1.3-2.6s-2.5-1-2.5-3.6zM14.1 5.6c.6-.8 1.1-1.8 1-2.9-.9 0-2 .6-2.7 1.4-.6.7-1.1 1.8-1 2.8 1 .1 2.1-.5 2.7-1.3z"/></svg>
+            <span><small>Coming soon to the</small>App Store</span>
+          </a>
+          <a class="btn" href="#how">See how it works</a>
+        </div>
+        <p class="hero-note">For iPhone · English, Türkçe &amp; Deutsch · Ages 16+</p>
+      </div>
+
+      <div class="transform" role="img" aria-label="A handwritten diary entry turning into a three-panel comic page">
+        <div class="diary-card">
+          <div class="date">Tuesday, Oct 14</div>
+          Missed the bus in the rain. Ela shared her umbrella and we ended up at our favourite ramen place. Best accident ever.
+        </div>
+        <svg class="arrow" viewBox="0 0 48 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 14c10-8 22-8 38-2"/><path d="M34 5l8 7-9 4"/></svg>
+        <div class="comic-page">
+          <!-- Panel 1: the bus leaves in the rain -->
+          <div class="panel wide">
+            <svg viewBox="0 0 200 90" fill="none" stroke="var(--ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect class="tone" x="0" y="0" width="200" height="90" stroke="none" opacity=".35"/>
+              <path d="M0 72h200" />
+              <rect x="96" y="30" width="86" height="38" rx="6" fill="var(--surface)"/>
+              <path d="M104 40h14v12h-14zM124 40h14v12h-14zM144 40h14v12h-14zM164 40h12v12h-12z"/>
+              <circle cx="114" cy="70" r="6" fill="var(--surface)"/><circle cx="164" cy="70" r="6" fill="var(--surface)"/>
+              <path d="M84 40h-14M86 50h-20M84 60h-12" stroke-width="1.6"/>
+              <circle cx="36" cy="34" r="8" fill="var(--surface)"/>
+              <path d="M36 42v18M36 48l-10 6M36 48l12-8M36 60l-7 11M36 60l7 11"/>
+              <path d="M12 8l-4 12M30 4l-4 12M58 10l-4 12M80 6l-4 12M130 6l-4 12M160 4l-4 12M190 10l-4 12" stroke-width="1.4" opacity=".7"/>
+              <text x="44" y="22" font-family="var(--hand)" font-size="16" font-weight="700" fill="var(--ink)" stroke="none">WAIT!</text>
+            </svg>
+          </div>
+          <!-- Panel 2: sharing the umbrella -->
+          <div class="panel">
+            <svg viewBox="0 0 100 120" fill="none" stroke="var(--ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 46c4-24 68-24 72 0z" fill="var(--indigo)" opacity=".85" stroke="var(--ink)"/>
+              <path d="M50 30v26"/>
+              <circle cx="36" cy="62" r="8" fill="var(--surface)"/>
+              <circle cx="64" cy="62" r="8" fill="var(--surface)"/>
+              <path d="M36 70v24M64 70v24M36 78l14-14M64 78l-14-14M36 94l-6 18M36 94l6 18M64 94l-6 18M64 94l6 18"/>
+              <path d="M33 61h0M39 61h0M61 61h0M67 61h0" stroke-width="3"/>
+              <path d="M33 65q3 2 6 0M61 65q3 2 6 0" stroke-width="1.5"/>
+              <path d="M8 14l-3 9M92 10l-3 9M20 6l-3 9M82 22l-3 9" stroke-width="1.3" opacity=".7"/>
+            </svg>
+          </div>
+          <!-- Panel 3: ramen -->
+          <div class="panel">
+            <svg viewBox="0 0 100 120" fill="none" stroke="var(--ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect class="tone" x="0" y="0" width="100" height="120" stroke="none" opacity=".3"/>
+              <path d="M8 22c0-12 50-12 50 0s-14 12-22 12l-8 8 2-9C14 32 8 28 8 22z" fill="var(--surface)"/>
+              <text x="33" y="27" text-anchor="middle" font-family="var(--hand)" font-size="13" font-weight="700" fill="var(--ink)" stroke="none">best day!</text>
+              <path d="M18 78h64c0 18-14 28-32 28S18 96 18 78z" fill="var(--surface)"/>
+              <path d="M30 78c2-10 6-10 8 0M44 78c2-12 6-12 8 0M58 78c2-10 6-10 8 0" stroke-width="1.6"/>
+              <path d="M70 52l-16 24M78 54l-18 22" stroke-width="2.4"/>
+              <path d="M36 62c-2-6 2-8 0-14M50 60c-2-6 2-8 0-14" stroke-width="1.4" opacity=".6"/>
+              <circle cx="40" cy="80" r="4" fill="var(--apricot)" stroke="none"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What is Livro -->
+  <section id="about" class="band">
+    <div class="wrap about-grid">
+      <div>
+        <p class="eyebrow">What is Livro?</p>
+        <p class="big">Livro is a diary for people who never kept one. You write about your day in your own words — <em>Livro draws it as a comic page</em>, with a character that looks like you.</p>
+      </div>
+      <div>
+        <p>Most diaries end up as a wall of text nobody reads again — not even the person who wrote it. Livro keeps the part that matters (writing honestly about your day) and turns it into something you'll actually want to flip through.</p>
+        <p>One entry a day becomes one comic page. Each month's pages are gathered into a chapter on your shelf, and each year becomes a book you can read from the first page or download as a PDF.</p>
+        <p>The name comes from the Portuguese word for <em>book</em>: over time, your days add up to one.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section id="how">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">How it works</p>
+        <h2>Four steps from your day to your book.</h2>
+      </div>
+      <ol class="steps">
+        <li class="step">
+          <h3>Create your character</h3>
+          <p>You're the main character of every comic. Pick your hair, eyes, face, build, clothes and accessories in a few simple steps — and change them whenever you like.</p>
+        </li>
+        <li class="step">
+          <h3>Write about your day</h3>
+          <p>Write naturally, like you'd tell a friend. No prompts to follow, no format to get right. Pick black-and-white or colour, then you're done.</p>
+        </li>
+        <li class="step">
+          <h3>Get your comic page</h3>
+          <p>Livro draws your day as a manga-style comic page. You can close the app while it works — we'll send a notification when it's ready.</p>
+        </li>
+        <li class="step">
+          <h3>Watch your book grow</h3>
+          <p>Every page joins that month's chapter. Your calendar fills in, your shelf grows, and each year becomes a book.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="band">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Features</p>
+        <h2>Small daily habit. Something worth keeping.</h2>
+      </div>
+      <div class="features">
+        <div class="feature">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 12h18M12 3v9"/></svg></div>
+          <h3>Two comic styles</h3>
+          <p>Classic black-and-white manga, or full colour. Choose per entry — some days just feel like ink.</p>
+        </div>
+        <div class="feature">
+          <div class="mini-cal" aria-hidden="true">
+            <i></i><i></i><i class="y"></i><i class="y"></i><i></i><i class="y"></i><i class="y"></i><i class="y"></i><i></i><i class="y"></i><i class="y"></i><i class="t"></i>
+          </div>
+          <h3>Memory calendar</h3>
+          <p>Twelve weeks at a glance. Yellow days are memories you've kept, green is today. Missed yesterday? You have until noon to write it.</p>
+        </div>
+        <div class="feature">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V5a2 2 0 0 1 2-2h4v18H6a2 2 0 0 1-2-2zM10 3h4v18h-4zM15 4l4-1 3 17-4 1z"/></svg></div>
+          <h3>Chapters &amp; books</h3>
+          <p>Pages are collected into monthly chapters and yearly books on your shelf. Read them like a real comic, page by page.</p>
+        </div>
+        <div class="feature">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5M4 19h16"/></svg></div>
+          <h3>PDF downloads</h3>
+          <p>Download any chapter or a whole year as a PDF with your name on the cover. Save it, print it, or AirDrop it to someone who was there.</p>
+        </div>
+        <div class="feature">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg></div>
+          <h3>English, Türkçe &amp; Deutsch</h3>
+          <p>The whole app speaks all three languages. Switch any time from your profile — every screen changes at once.</p>
+        </div>
+        <div class="feature">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></div>
+          <h3>Private by design</h3>
+          <p>Sign in with Apple or Google — no new password. Your diary isn't used to train AI models, and deleting your account deletes your memories.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Pricing</p>
+        <h2>One plan. Every comic.</h2>
+        <p>Livro Premium turns your entries into comic pages and books. Subscriptions are handled by the App Store, so you can cancel anytime from your Apple account.</p>
+      </div>
+      <div class="plans two">
+        <div class="plan">
+          <h3>Premium Monthly</h3>
+          <div class="price">$12.99<span> / month</span></div>
+          <div class="sub">Flexible, cancel anytime</div>
+          <ul>
+            <li>Your own character in every comic</li>
+            <li>A comic page every day</li>
+            <li>Black-and-white or colour</li>
+            <li>Monthly chapters &amp; yearly books</li>
+            <li>PDF chapter &amp; book downloads</li>
+          </ul>
+        </div>
+        <div class="plan featured">
+          <span class="tag">Best value</span>
+          <h3>Premium Yearly</h3>
+          <div class="price">$99.99<span> / year</span></div>
+          <div class="sub">About $8.33 a month — save 35%</div>
+          <ul>
+            <li>Everything in Premium Monthly</li>
+            <li>Over four months free compared to monthly</li>
+            <li>A full year of pages — a full book</li>
+          </ul>
+        </div>
+      </div>
+      <p class="pricing-note">Prices shown in US dollars; the App Store shows the price in your local currency, and it may vary by country. Payment is charged to your Apple account at confirmation of purchase. Subscriptions renew automatically unless cancelled at least 24 hours before the end of the current period. Manage or cancel in your Apple account settings. See the <a href="terms.html#section-11">Terms of Service</a>.</p>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section id="team" class="band">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Development team</p>
+        <h2>Made independently.</h2>
+        <p>Livro is a small, independent project — no investors deciding what goes in your diary. Just people who wanted a reason to remember ordinary days.</p>
+      </div>
+      <div class="team">
+        <div class="member">
+          <div class="avatar" aria-hidden="true">B</div>
+          <div>
+            <h3>Barış Görkem Yaşar</h3>
+            <div class="role">Founder · Design &amp; engineering</div>
+            <p>Designs and builds the iPhone app and the comic pipeline.</p>
+          </div>
+        </div>
+        <div class="member">
+          <div class="avatar" aria-hidden="true">D</div>
+          <div>
+            <h3><a href="https://www.linkedin.com/in/denizgozcu/" target="_blank" rel="noopener">Deniz Gözcü</a></h3>
+            <div class="role">Founder &amp; Backend Developer</div>
+            <p>Builds the backend that keeps your diary safe and turns each entry into a comic page.</p>
+            <a class="member-link" href="https://www.linkedin.com/in/denizgozcu/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="values">
+        <div class="value">
+          <h3>Your diary is yours</h3>
+          <p>You keep the rights to everything you write. Livro only uses it to make your comics.</p>
+        </div>
+        <div class="value">
+          <h3>Small on purpose</h3>
+          <p>One entry a day. No feeds, no followers, no streak guilt.</p>
+        </div>
+        <div class="value">
+          <h3>Built to last</h3>
+          <p>Your book is downloadable, so your memories never depend on an app.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">FAQ</p>
+        <h2>Questions, answered.</h2>
+      </div>
+      <div class="faq">
+        <details><summary>Do I need to be good at writing?</summary><p>Not at all. Write the way you'd text a friend — a few sentences is enough. Livro works out the scenes, the people and the mood.</p></details>
+        <details><summary>How often can I write?</summary><p>Once a day — one entry becomes one comic page. Before noon you can still write about yesterday, in case the day got away from you.</p></details>
+        <details><summary>Will the comic match exactly what happened?</summary><p>Livro uses AI to draw your day, so it's an interpretation, not a photograph. It may picture a place or a moment differently from how you remember it — that's part of the charm.</p></details>
+        <details><summary>Is my diary used to train AI?</summary><p>No. Livro doesn't train its own models on your diary and doesn't opt your content into third-party training. The <a href="privacy.html">Privacy Policy</a> explains exactly what is sent where, and why.</p></details>
+        <details><summary>Can I keep my comics if I leave?</summary><p>Yes. Premium members can download any chapter or a whole year as a PDF. We recommend downloading the pages you love before deleting your account, because deletion is permanent.</p></details>
+        <details><summary>How do I cancel my subscription?</summary><p>In the app, go to Profile → Premium (or Settings → Subscription), which opens Apple's subscription page. You can also cancel from your Apple account settings. Premium stays active until the end of the period you've paid for.</p></details>
+        <details><summary>Which devices are supported?</summary><p>Livro is an iPhone app, available through the Apple App Store, for anyone aged 16 and older.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta band">
+    <div class="wrap">
+      <h2>Tomorrow, today will be a <span class="hand">memory.</span></h2>
+      <p>Start writing it down — Livro will draw the rest.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#" aria-disabled="true">Coming soon to the App Store</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <span>© Livro · Contact: <a href="mailto:hellolivro@gmail.com">hellolivro@gmail.com</a></span>
+    <nav aria-label="Footer">
+      <a href="index.html#about">About</a>
+      <a href="index.html#pricing">Pricing</a>
+      <a href="index.html#team">Team</a>
+      <a href="terms.html">Terms of Service</a>
+      <a href="privacy.html">Privacy Policy</a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+  // The App Store link isn't live yet; keep the buttons from jumping to the top.
+  document.querySelectorAll('a[aria-disabled="true"]').forEach(a =>
+    a.addEventListener('click', e => e.preventDefault()));
+</script>
+</body>
+</html>

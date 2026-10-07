@@ -1,0 +1,139 @@
+{
+  "language_name": "Türkçe",
+  "meta": {
+    "title": "Livro — Gününüz bir hikâyeye dönüşür",
+    "description": "Livro günlüğünüzü çizgi roman sayfalarına dönüştürür. Gününüzü yazın, Livro sizi ana karakter yaparak çizsin. Her ay bir bölüm, her yıl bir kitap olur.",
+    "og_description": "Gününüzü yazın. Livro onu başrolünde sizin olduğunuz bir çizgi roman sayfasına dönüştürsün."
+  },
+  "nav": {
+    "label": "Ana menü",
+    "home": "Livro ana sayfa",
+    "about": "Livro nedir",
+    "how": "Nasıl çalışır",
+    "pricing": "Fiyatlar",
+    "team": "Ekip",
+    "cta": "Livro'yu edinin",
+    "language": "Dil"
+  },
+  "hero": {
+    "eyebrow": "Kendini çizen bir günlük",
+    "title": "Gününüz bir <span class=\"hand\">hikâyeye</span> dönüşür.",
+    "lede": "Gününüz hakkında birkaç satır yazın. Livro bunları başrolünde sizin olduğunuz bir çizgi roman sayfasına dönüştürsün.",
+    "store_small": "Çok yakında",
+    "secondary": "Nasıl çalıştığını görün",
+    "note": "iPhone için · English, Türkçe &amp; Deutsch · 16 yaş ve üzeri",
+    "illustration": "El yazısıyla yazılmış bir günlük sayfasının üç kareli bir çizgi roman sayfasına dönüşmesi",
+    "diary_date": "Salı, 14 Ekim",
+    "diary_text": "Yağmurda otobüsü kaçırdım. Ela şemsiyesini paylaştı, sonunda en sevdiğimiz ramen yerine gittik. Hayatımın en güzel tesadüfü.",
+    "panel_wait": "DUR!",
+    "panel_bubble": "harika gün!"
+  },
+  "about": {
+    "eyebrow": "Livro nedir?",
+    "big": "Livro, hiç günlük tutmamış olanlar için bir günlük. Gününüzü kendi kelimelerinizle yazarsınız — <em>Livro onu bir çizgi roman sayfası olarak çizer</em>, size benzeyen bir karakterle.",
+    "p1": "Çoğu günlük, kimsenin — yazanın bile — tekrar okumadığı bir metin yığınına dönüşür. Livro işin önemli kısmını (gününüzü içtenlikle yazmayı) korur ve onu gerçekten karıştırmak isteyeceğiniz bir şeye dönüştürür.",
+    "p2": "Günde bir yazı, bir çizgi roman sayfası olur. Her ayın sayfaları rafınızda bir bölümde toplanır, her yıl da ilk sayfadan okuyabileceğiniz ya da PDF olarak indirebileceğiniz bir kitaba dönüşür.",
+    "p3": "Adı, Portekizcede <em>kitap</em> anlamına gelen kelimeden geliyor: zamanla günleriniz bir kitap olur."
+  },
+  "how": {
+    "eyebrow": "Nasıl çalışır",
+    "title": "Gününüzden kitabınıza dört adım.",
+    "s1_title": "Karakterinizi oluşturun",
+    "s1_text": "Her çizgi romanın ana karakteri sizsiniz. Saçınızı, gözlerinizi, yüzünüzü, vücut yapınızı, kıyafetlerinizi ve aksesuarlarınızı birkaç basit adımda seçin — istediğiniz zaman değiştirin.",
+    "s2_title": "Gününüzü yazın",
+    "s2_text": "Bir arkadaşınıza anlatır gibi doğal bir şekilde yazın. Takip edilecek sorular ya da uyulacak bir biçim yok. Siyah-beyaz veya renkli seçin, hepsi bu.",
+    "s3_title": "Çizgi roman sayfanızı alın",
+    "s3_text": "Livro gününüzü manga tarzında bir çizgi roman sayfası olarak çizer. Bu sırada uygulamayı kapatabilirsiniz — sayfa hazır olduğunda bildirim göndeririz.",
+    "s4_title": "Kitabınızın büyümesini izleyin",
+    "s4_text": "Her sayfa o ayın bölümüne eklenir. Takviminiz dolar, rafınız büyür ve her yıl bir kitaba dönüşür."
+  },
+  "features": {
+    "eyebrow": "Özellikler",
+    "title": "Küçük bir günlük alışkanlık. Saklamaya değer bir şey.",
+    "styles_title": "İki çizgi roman stili",
+    "styles_text": "Klasik siyah-beyaz manga ya da tam renkli. Her yazı için ayrı seçin — bazı günler sadece mürekkep ister.",
+    "calendar_title": "Anı Takvimi",
+    "calendar_text": "On iki hafta tek bakışta. Sarı günler sakladığınız anılar, yeşil gün bugün. Dünü mü kaçırdınız? Yazmak için öğlene kadar vaktiniz var.",
+    "books_title": "Bölümler ve kitaplar",
+    "books_text": "Sayfalar rafınızda aylık bölümler ve yıllık kitaplar halinde toplanır. Onları gerçek bir çizgi roman gibi sayfa sayfa okuyun.",
+    "pdf_title": "PDF indirme",
+    "pdf_text": "Herhangi bir bölümü ya da bütün bir yılı kapağında adınız olan bir PDF olarak indirin. Kaydedin, yazdırın ya da o gün orada olan birine AirDrop ile gönderin.",
+    "lang_title": "English, Türkçe &amp; Deutsch",
+    "lang_text": "Uygulamanın tamamı üç dili de konuşur. Profilinizden istediğiniz zaman değiştirin — tüm ekranlar aynı anda değişir.",
+    "privacy_title": "Gizlilik odaklı tasarım",
+    "privacy_text": "Apple veya Google ile giriş yapın — yeni bir parolaya gerek yok. Günlüğünüz yapay zekâ modellerini eğitmek için kullanılmaz ve hesabınızı sildiğinizde anılarınız da silinir."
+  },
+  "pricing": {
+    "eyebrow": "Fiyatlar",
+    "title": "Tek plan. Tüm çizgi romanlar.",
+    "intro": "Livro Premium yazılarınızı çizgi roman sayfalarına ve kitaplara dönüştürür. Abonelikler App Store üzerinden yönetilir; Apple hesabınızdan istediğiniz zaman iptal edebilirsiniz.",
+    "monthly_name": "Premium Aylık",
+    "monthly_price": "12,99 $",
+    "per_month": "/ ay",
+    "monthly_sub": "Esnek, istediğiniz zaman iptal edin",
+    "monthly_1": "Her çizgi romanda kendi karakteriniz",
+    "monthly_2": "Her gün bir çizgi roman sayfası",
+    "monthly_3": "Siyah-beyaz veya renkli",
+    "monthly_4": "Aylık bölümler ve yıllık kitaplar",
+    "monthly_5": "Bölüm ve kitap PDF'i indirme",
+    "best_value": "En avantajlı",
+    "yearly_name": "Premium Yıllık",
+    "yearly_price": "99,99 $",
+    "per_year": "/ yıl",
+    "yearly_sub": "Aylık yaklaşık 8,33 $ — %35 tasarruf",
+    "yearly_1": "Premium Aylık'taki her şey",
+    "yearly_2": "Aylık plana göre dört aydan fazlası bedava",
+    "yearly_3": "Tam bir yıl sayfa — tam bir kitap",
+    "note": "Fiyatlar ABD doları olarak gösterilmiştir; App Store fiyatı yerel para biriminizde gösterir ve fiyat ülkeye göre değişebilir. Ödeme, satın alma onaylandığında Apple hesabınızdan tahsil edilir. Abonelikler, mevcut dönemin bitiminden en az 24 saat önce iptal edilmedikçe otomatik olarak yenilenir. Apple hesap ayarlarınızdan yönetebilir veya iptal edebilirsiniz. Ayrıntılar için <a href=\"terms.html#section-11\">Kullanım Koşulları</a>'na bakın."
+  },
+  "team": {
+    "eyebrow": "Geliştirici ekip",
+    "title": "Bağımsız olarak geliştirildi.",
+    "intro": "Livro küçük ve bağımsız bir proje — günlüğünüze ne gireceğine karar veren yatırımcılar yok. Sadece sıradan günleri hatırlamak için bir sebep isteyen insanlar var.",
+    "baris_role": "Kurucu · Tasarım ve geliştirme",
+    "baris_text": "iPhone uygulamasını ve çizgi roman üretim sürecini tasarlıyor ve geliştiriyor.",
+    "v1_title": "Günlüğünüz sizindir",
+    "v1_text": "Yazdığınız her şeyin hakları sizde kalır. Livro onu yalnızca çizgi romanlarınızı oluşturmak için kullanır.",
+    "v2_title": "Bilerek küçük",
+    "v2_text": "Günde bir yazı. Akış yok, takipçi yok, seri kaçırma suçluluğu yok.",
+    "v3_title": "Kalıcı olsun diye",
+    "v3_text": "Kitabınızı indirebilirsiniz; anılarınız hiçbir zaman bir uygulamaya bağlı kalmaz.",
+    "deniz_role": "Kurucu &amp; Backend Geliştirici",
+    "deniz_text": "Günlüğünüzü güvende tutan ve her yazıyı bir çizgi roman sayfasına dönüştüren sunucu altyapısını geliştiriyor."
+  },
+  "faq": {
+    "eyebrow": "SSS",
+    "title": "Sorular ve cevaplar.",
+    "q1": "İyi yazabiliyor olmam gerekir mi?",
+    "a1": "Hiç gerekmez. Bir arkadaşınıza mesaj atar gibi yazın — birkaç cümle yeterli. Sahneleri, kişileri ve havayı Livro çıkarır.",
+    "q2": "Ne sıklıkla yazabilirim?",
+    "a2": "Günde bir kez — bir yazı bir çizgi roman sayfası olur. Gün elinizden kaçtıysa, öğlene kadar dünü de yazabilirsiniz.",
+    "q3": "Çizgi roman yaşananlarla birebir aynı mı olacak?",
+    "a3": "Livro gününüzü yapay zekâ ile çizer; yani bu bir fotoğraf değil, bir yorumdur. Bir yeri ya da anı hatırladığınızdan farklı çizebilir — işin tadı da biraz burada.",
+    "q4": "Günlüğüm yapay zekâ eğitimi için kullanılıyor mu?",
+    "a4": "Hayır. Livro kendi modellerini günlüğünüzle eğitmez ve içeriğinizi üçüncü taraf eğitim programlarına dahil etmez. Neyin nereye ve neden gönderildiğini <a href=\"privacy.html\">Gizlilik Politikası</a> ayrıntılı olarak açıklar.",
+    "q5": "Ayrılırsam çizgi romanlarımı saklayabilir miyim?",
+    "a5": "Evet. Premium üyeler herhangi bir bölümü ya da bütün bir yılı PDF olarak indirebilir. Hesap silme işlemi kalıcı olduğu için, hesabınızı silmeden önce sevdiğiniz sayfaları indirmenizi öneririz.",
+    "q6": "Aboneliğimi nasıl iptal ederim?",
+    "a6": "Uygulamada Profil → Premium'a (veya Ayarlar → Abonelik'e) gidin; Apple'ın abonelik sayfası açılır. Apple hesap ayarlarınızdan da iptal edebilirsiniz. Premium, ödemesini yaptığınız dönemin sonuna kadar etkin kalır.",
+    "q7": "Hangi cihazlar destekleniyor?",
+    "a7": "Livro, Apple App Store üzerinden sunulan ve 16 yaş ve üzeri herkesin kullanabileceği bir iPhone uygulamasıdır."
+  },
+  "cta": {
+    "title": "Yarın, bugün bir <span class=\"hand\">anı</span> olacak.",
+    "text": "Yazmaya başlayın — gerisini Livro çizsin.",
+    "button": "Çok yakında App Store'da"
+  },
+  "footer": {
+    "made": "© Livro",
+    "contact": "İletişim",
+    "label": "Alt bilgi",
+    "about": "Hakkında"
+  },
+  "legal": {
+    "eyebrow": "Yasal",
+    "contents": "İçindekiler",
+    "terms": "Kullanım Koşulları",
+    "privacy": "Gizlilik Politikası"
+  }
+}

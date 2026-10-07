@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{meta.title}}</title>
+<meta name="description" content="{{meta.description}}">
+<meta property="og:title" content="{{meta.title}}">
+<meta property="og:description" content="{{meta.og_description}}">
+<meta property="og:image" content="{{root}}assets/livro-wordmark.png">
+<meta name="theme-color" content="#f7f4ee">
+{{alternates}}
+<link rel="icon" href="{{root}}assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="{{root}}styles.css">
+{{redirect}}
+</head>
+<body>
+
+<!-- Shared drawing defs: the manga screentone used in the comic panels. -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <pattern id="tone" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.1" fill="var(--apricot)"/>
+    </pattern>
+  </defs>
+</svg>
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="{{nav.home}}"><img src="{{root}}assets/livro-wordmark.png" alt="Livro" width="83" height="48"></a>
+    <nav aria-label="{{nav.label}}">
+      <a href="#about">{{nav.about}}</a>
+      <a href="#how">{{nav.how}}</a>
+      <a href="#pricing">{{nav.pricing}}</a>
+      <a href="#team">{{nav.team}}</a>
+      {{langs}}
+      <a class="btn btn-primary" href="#download">{{nav.cta}}</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">{{hero.eyebrow}}</p>
+        <h1>{{hero.title}}</h1>
+        <p class="lede">{{hero.lede}}</p>
+        <div class="hero-actions" id="download">
+          <a class="btn btn-primary" href="#" aria-disabled="true">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.6c0-2.4 2-3.5 2-3.6-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.2-2.8.8-3.5.8-.7 0-1.8-.8-3-.8-1.5 0-3 .9-3.8 2.3-1.6 2.8-.4 7 1.2 9.3.8 1.1 1.7 2.4 2.9 2.3 1.2 0 1.6-.7 3-.7s1.8.7 3 .7c1.3 0 2.1-1.1 2.8-2.3.9-1.3 1.3-2.6 1.3-2.6s-2.5-1-2.5-3.6zM14.1 5.6c.6-.8 1.1-1.8 1-2.9-.9 0-2 .6-2.7 1.4-.6.7-1.1 1.8-1 2.8 1 .1 2.1-.5 2.7-1.3z"/></svg>
+            <span><small>{{hero.store_small}}</small>App Store</span>
+          </a>
+          <a class="btn" href="#how">{{hero.secondary}}</a>
+        </div>
+        <p class="hero-note">{{hero.note}}</p>
+      </div>
+
+      <div class="transform" role="img" aria-label="{{hero.illustration}}">
+        <div class="diary-card">
+          <div class="date">{{hero.diary_date}}</div>
+          {{hero.diary_text}}
+        </div>
+        <svg class="arrow" viewBox="0 0 48 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 14c10-8 22-8 38-2"/><path d="M34 5l8 7-9 4"/></svg>
+        <div class="comic-page">
+          <!-- Panel 1: the bus leaves in the rain -->
+          <div class="panel wide">
+            <svg viewBox="0 0 200 90" fill="none" stroke="var(--ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect class="tone" x="0" y="0" width="200" height="90" stroke="none" opacity=".35"/>
+              <path d="M0 72h200" />
+              <rect x="96" y="30" width="86" height="38" rx="6" fill="var(--surface)"/>
+              <path d="M104 40h14v12h-14zM124 40h14v12h-14zM144 40h14v12h-14zM164 40h12v12h-12z"/>
+              <circle cx="114" cy="70" r="6" fill="var(--surface)"/><circle cx="164" cy="70" r="6" fill="var(--surface)"/>
+              <path d="M84 40h-14M86 50h-20M84 60h-12" stroke-width="1.6"/>
+              <circle cx="36" cy="34" r="8" fill="var(--surface)"/>
+              <path d="M36 42v18M36 48l-10 6M36 48l12-8M36 60l-7 11M36 60l7 11"/>
+              <path d="M12 8l-4 12M30 4l-4 12M58 10l-4 12M80 6l-4 12M130 6l-4 12M160 4l-4 12M190 10l-4 12" stroke-width="1.4" opacity=".7"/>
+              <text x="44" y="22" font-family="var(--hand)" font-size="16" font-weight="700" fill="var(--ink)" stroke="none">{{hero.panel_wait}}</text>
+            </svg>
+          </div>
+          <!-- Panel 2: sharing the umbrella -->
+          <div class="panel">
+            <svg viewBox="0 0 100 120" fill="none" stroke="var(--ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 46c4-24 68-24 72 0z" fill="var(--indigo)" opacity=".85" stroke="var(--ink)"/>
+              <path d="M50 30v26"/>
+              <circle cx="36" cy="62" r="8" fill="var(--surface)"/>
+              <circle cx="64" cy="62" r="8" fill="var(--surface)"/>
+              <path d="M36 70v24M64 70v24M36 78l14-14M64 78l-14-14M36 94l-6 18M36 94l6 18M64 94l-6 18M64 94l6 18"/>
+              <path d="M33 61h0M39 61h0M61 61h0M67 61h0" stroke-width="3"/>
+              <path d="M33 65q3 2 6 0M61 65q3 2 6 0" stroke-width="1.5"/>
+              <path d="M8 14l-3 9M92 10l-3 9M20 6l-3 9M82 22l-3 9" stroke-width="1.3" opacity=".7"/>
+            </svg>
+          </div>
+          <!-- Panel 3: ramen -->
+          <div class="panel">
+            <svg viewBox="0 0 100 120" fill="none" stroke="var(--ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect class="tone" x="0" y="0" width="100" height="120" stroke="none" opacity=".3"/>
+              <path d="M8 22c0-12 50-12 50 0s-14 12-22 12l-8 8 2-9C14 32 8 28 8 22z" fill="var(--surface)"/>
+              <text x="33" y="27" text-anchor="middle" font-family="var(--hand)" font-size="13" font-weight="700" fill="var(--ink)" stroke="none">{{hero.panel_bubble}}</text>
+              <path d="M18 78h64c0 18-14 28-32 28S18 96 18 78z" fill="var(--surface)"/>
+              <path d="M30 78c2-10 6-10 8 0M44 78c2-12 6-12 8 0M58 78c2-10 6-10 8 0" stroke-width="1.6"/>
+              <path d="M70 52l-16 24M78 54l-18 22" stroke-width="2.4"/>
+              <path d="M36 62c-2-6 2-8 0-14M50 60c-2-6 2-8 0-14" stroke-width="1.4" opacity=".6"/>
+              <circle cx="40" cy="80" r="4" fill="var(--apricot)" stroke="none"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What is Livro -->
+  <section id="about" class="band">
+    <div class="wrap about-grid">
+      <div>
+        <p class="eyebrow">{{about.eyebrow}}</p>
+        <p class="big">{{about.big}}</p>
+      </div>
+      <div>
+        <p>{{about.p1}}</p>
+        <p>{{about.p2}}</p>
+        <p>{{about.p3}}</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section id="how">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">{{how.eyebrow}}</p>
+        <h2>{{how.title}}</h2>
+      </div>
+      <ol class="steps">
+        <li class="step">
+          <h3>{{how.s1_title}}</h3>
+          <p>{{how.s1_text}}</p>
+        </li>
+        <li class="step">
+          <h3>{{how.s2_title}}</h3>
+          <p>{{how.s2_text}}</p>
+        </li>
+        <li class="step">
+          <h3>{{how.s3_title}}</h3>
+          <p>{{how.s3_text}}</p>
+        </li>
+        <li class="step">
+          <h3>{{how.s4_title}}</h3>
+          <p>{{how.s4_text}}</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="band">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">{{features.eyebrow}}</p>
+        <h2>{{features.title}}</h2>
+      </div>
+      <div class="features">
+        <div class="feature">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 12h18M12 3v9"/></svg></div>
+          <h3>{{features.styles_title}}</h3>
+          <p>{{features.styles_text}}</p>
+        </div>
+        <div class="feature">
+          <div class="mini-cal" aria-hidden="true">
+            <i></i><i></i><i class="y"></i><i class="y"></i><i></i><i class="y"></i><i class="y"></i><i class="y"></i><i></i><i class="y"></i><i class="y"></i><i class="t"></i>
+          </div>
+          <h3>{{features.calendar_title}}</h3>
+          <p>{{features.calendar_text}}</p>
+        </div>
+        <div class="feature">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V5a2 2 0 0 1 2-2h4v18H6a2 2 0 0 1-2-2zM10 3h4v18h-4zM15 4l4-1 3 17-4 1z"/></svg></div>
+          <h3>{{features.books_title}}</h3>
+          <p>{{features.books_text}}</p>
+        </div>
+        <div class="feature">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5M4 19h16"/></svg></div>
+          <h3>{{features.pdf_title}}</h3>
+          <p>{{features.pdf_text}}</p>
+        </div>
+        <div class="feature">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg></div>
+          <h3>{{features.lang_title}}</h3>
+          <p>{{features.lang_text}}</p>
+        </div>
+        <div class="feature">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></div>
+          <h3>{{features.privacy_title}}</h3>
+          <p>{{features.privacy_text}}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">{{pricing.eyebrow}}</p>
+        <h2>{{pricing.title}}</h2>
+        <p>{{pricing.intro}}</p>
+      </div>
+      <div class="plans two">
+        <div class="plan">
+          <h3>{{pricing.monthly_name}}</h3>
+          <div class="price">{{pricing.monthly_price}}<span> {{pricing.per_month}}</span></div>
+          <div class="sub">{{pricing.monthly_sub}}</div>
+          <ul>
+            <li>{{pricing.monthly_1}}</li>
+            <li>{{pricing.monthly_2}}</li>
+            <li>{{pricing.monthly_3}}</li>
+            <li>{{pricing.monthly_4}}</li>
+            <li>{{pricing.monthly_5}}</li>
+          </ul>
+        </div>
+        <div class="plan featured">
+          <span class="tag">{{pricing.best_value}}</span>
+          <h3>{{pricing.yearly_name}}</h3>
+          <div class="price">{{pricing.yearly_price}}<span> {{pricing.per_year}}</span></div>
+          <div class="sub">{{pricing.yearly_sub}}</div>
+          <ul>
+            <li>{{pricing.yearly_1}}</li>
+            <li>{{pricing.yearly_2}}</li>
+            <li>{{pricing.yearly_3}}</li>
+          </ul>
+        </div>
+      </div>
+      <p class="pricing-note">{{pricing.note}}</p>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section id="team" class="band">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">{{team.eyebrow}}</p>
+        <h2>{{team.title}}</h2>
+        <p>{{team.intro}}</p>
+      </div>
+      <div class="team">
+        <div class="member">
+          <div class="avatar" aria-hidden="true">B</div>
+          <div>
+            <h3>Barış Görkem Yaşar</h3>
+            <div class="role">{{team.baris_role}}</div>
+            <p>{{team.baris_text}}</p>
+          </div>
+        </div>
+        <div class="member">
+          <div class="avatar" aria-hidden="true">D</div>
+          <div>
+            <h3><a href="https://www.linkedin.com/in/denizgozcu/" target="_blank" rel="noopener">Deniz Gözcü</a></h3>
+            <div class="role">{{team.deniz_role}}</div>
+            <p>{{team.deniz_text}}</p>
+            <a class="member-link" href="https://www.linkedin.com/in/denizgozcu/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="values">
+        <div class="value">
+          <h3>{{team.v1_title}}</h3>
+          <p>{{team.v1_text}}</p>
+        </div>
+        <div class="value">
+          <h3>{{team.v2_title}}</h3>
+          <p>{{team.v2_text}}</p>
+        </div>
+        <div class="value">
+          <h3>{{team.v3_title}}</h3>
+          <p>{{team.v3_text}}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">{{faq.eyebrow}}</p>
+        <h2>{{faq.title}}</h2>
+      </div>
+      <div class="faq">
+        <details><summary>{{faq.q1}}</summary><p>{{faq.a1}}</p></details>
+        <details><summary>{{faq.q2}}</summary><p>{{faq.a2}}</p></details>
+        <details><summary>{{faq.q3}}</summary><p>{{faq.a3}}</p></details>
+        <details><summary>{{faq.q4}}</summary><p>{{faq.a4}}</p></details>
+        <details><summary>{{faq.q5}}</summary><p>{{faq.a5}}</p></details>
+        <details><summary>{{faq.q6}}</summary><p>{{faq.a6}}</p></details>
+        <details><summary>{{faq.q7}}</summary><p>{{faq.a7}}</p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta band">
+    <div class="wrap">
+      <h2>{{cta.title}}</h2>
+      <p>{{cta.text}}</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#" aria-disabled="true">{{cta.button}}</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+{{footer}}
+
+<script>
+  // The App Store link isn't live yet; keep the buttons from jumping to the top.
+  document.querySelectorAll('a[aria-disabled="true"]').forEach(a =>
+    a.addEventListener('click', e => e.preventDefault()));
+</script>
+</body>
+</html>
