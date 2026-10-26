@@ -120,7 +120,7 @@
     "a7": "Livro ist eine iPhone-App, erhältlich im Apple App Store, für alle ab 16 Jahren."
   },
   "cta": {
-    "title": "Morgen ist heute eine <span class=\"hand\">Erinnerung.</span>",
+    "title": "Morgen wird der heutige Tag zur <span class=\"hand\">Erinnerung.</span>",
     "text": "Fang an, sie aufzuschreiben – den Rest zeichnet Livro.",
     "button": "Bald im App Store"
   },
@@ -128,12 +128,45 @@
     "made": "© Livro",
     "contact": "Kontakt",
     "label": "Fußzeile",
-    "about": "Über uns"
+    "about": "Über uns",
+    "support": "Support"
   },
   "legal": {
     "eyebrow": "Rechtliches",
     "contents": "Inhalt",
     "terms": "Nutzungsbedingungen",
     "privacy": "Datenschutzerklärung"
+  },
+  "support": {
+    "page_title": "Support",
+    "meta_description": "Hilfe zu Livro: Kontakt zum Team und Lösungen für häufige Probleme mit Comics, Anmeldung, Abo und Konto.",
+    "eyebrow": "Support",
+    "title": "Wie können wir helfen?",
+    "intro": "Die meisten Fragen sind unten beantwortet. Wenn deine nicht dabei ist, schreib uns – jede Nachricht liest ein echter Mensch aus dem Livro-Team.",
+    "email_title": "Schreib uns eine E-Mail",
+    "email_text": "Gern auf Deutsch, Englisch oder Türkisch. Wir antworten so schnell wie möglich.",
+    "include_title": "Damit wir schneller helfen können, gib bitte an",
+    "include_1": "Dein iPhone-Modell und deine iOS-Version",
+    "include_2": "Wie du dich anmeldest: Apple oder Google",
+    "include_3": "Das Datum des Eintrags, wenn es um einen Comic geht",
+    "include_4": "Was passiert ist, und einen Screenshot, falls vorhanden. Deinen Tagebuchtext musst du nicht mitschicken.",
+    "faq_eyebrow": "Häufige Fragen",
+    "faq_title": "Schnelle Lösungen.",
+    "q_failed": "Meine Comicseite wurde nicht erstellt. Was nun?",
+    "a_failed": "Dein Tagebucheintrag bleibt immer gespeichert, auch wenn das Zeichnen fehlschlägt. Öffne den Tag in der App und tippe auf <strong>Erneut versuchen</strong>. Pro Tag gibt es nur eine begrenzte Zahl an Versuchen, und die App zeigt dir, wie lange du es noch versuchen kannst. Erneut versuchen ist Teil von Premium. Wenn es weiter fehlschlägt, <a href=\"#contact\">schreib uns</a> mit dem Datum des Eintrags.",
+    "q_signin": "Ich kann mich nicht anmelden.",
+    "a_signin": "Prüfe deine Internetverbindung und versuche es erneut. Nutze dieselbe Methode wie beim ersten Mal – Apple oder Google –, denn dein Tagebuch und deine Comics gehören zu diesem Konto. Klappt es immer noch nicht, <a href=\"#contact\">schreib uns</a> und sag uns, welche Methode du nutzt.",
+    "q_restore": "Ich habe Premium bezahlt, aber die App zeigt es nicht an.",
+    "a_restore": "Öffne <strong>Profil → Premium</strong> und tippe auf <strong>Käufe wiederherstellen</strong>. Achte darauf, dass dein iPhone mit derselben Apple-ID angemeldet ist, mit der du das Abo abgeschlossen hast. Das funktioniert auch nach dem Wechsel auf ein neues iPhone.",
+    "q_refund": "Wie bekomme ich eine Erstattung?",
+    "a_refund": "Abos werden von Apple verkauft und abgerechnet, daher kümmert sich Apple um Erstattungen, nicht Livro. Du kannst sie unter <a href=\"https://reportaproblem.apple.com\">reportaproblem.apple.com</a> anfragen.",
+    "q_notifications": "Ich bekomme keine Mitteilungen.",
+    "a_notifications": "Prüfe in der App unter <strong>Profil → Mitteilungen</strong>, ob Mitteilungen aktiviert sind. Öffne dann auf deinem iPhone <strong>Einstellungen → Mitteilungen → Livro</strong> und stelle sicher, dass <strong>Mitteilungen erlauben</strong> eingeschaltet ist.",
+    "q_download": "Wie lade ich meine Comics herunter?",
+    "a_download": "Premium-Mitglieder können jede einzelne Comicseite herunterladen oder einen ganzen Monat als PDF-Kapitel über dessen Kapitelkarte. Das Kapitel eines Monats lässt sich herunterladen, sobald der Monat vorbei ist, denn bis dahin kannst du noch Seiten hinzufügen.",
+    "q_delete": "Wie lösche ich mein Konto?",
+    "a_delete": "Öffne <strong>Profil → Konto löschen</strong>. Damit werden dein Tagebuch, deine Comics und dein Charakter endgültig gelöscht, und das lässt sich nicht rückgängig machen – lade also vorher herunter, was du behalten möchtest. Das Löschen des Kontos kündigt dein Abo nicht; kündige es in deinen Apple-Account-Einstellungen.",
+    "q_data": "Wie bekomme ich eine Kopie meiner Daten?",
+    "a_data": "<a href=\"#contact\">Schreib uns eine E-Mail</a>, und wir schicken dir eine Kopie der personenbezogenen Daten, die wir über dich speichern, einschließlich deines Tagebuchtexts. Was wir speichern und warum, erklärt die <a href=\"privacy.html\">Datenschutzerklärung</a>."
   }
 }

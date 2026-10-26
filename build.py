@@ -5,6 +5,7 @@
 
 Sources                              Output
   templates/index.html + locales/      index.html,   tr/index.html,   de/index.html
+  templates/support.html + locales/    support.html, tr/support.html, de/support.html
   templates/legal.html + legal/<lang>/ terms.html,   tr/terms.html,   de/terms.html
                                        privacy.html, tr/privacy.html, de/privacy.html
 
@@ -43,6 +44,8 @@ CONTACT_EMAIL = "hellolivro@gmail.com"
 PAGES = [
     # output file, template, legal source (None for the home page), locale key for its title
     ("index.html", "index.html", None, None),
+    # The App Store's "Support URL" points here; keep the address stable.
+    ("support.html", "support.html", None, None),
     ("terms.html", "legal.html", "TermsOfService.docx", "legal.terms"),
     ("privacy.html", "legal.html", "PrivacyPolicy.docx", "legal.privacy"),
 ]
@@ -255,6 +258,7 @@ def footer(lang, root, strings):
       <a href="index.html#team">{strings["nav"]["team"]}</a>
       <a href="terms.html">{legal["terms"]}</a>
       <a href="privacy.html">{legal["privacy"]}</a>
+      <a href="support.html">{f["support"]}</a>
     </nav>
   </div>
 </footer>"""
@@ -262,7 +266,7 @@ def footer(lang, root, strings):
 
 def main():
     locales = {l: json.loads((ROOT / "locales" / f"{l}.json").read_text(encoding="utf-8")) for l in LANGUAGES}
-    templates = {name: (ROOT / "templates" / name).read_text(encoding="utf-8") for name in {"index.html", "legal.html"}}
+    templates = {name: (ROOT / "templates" / name).read_text(encoding="utf-8") for _, name, _, _ in PAGES}
 
     for lang in LANGUAGES:
         strings = locales[lang]
@@ -278,9 +282,11 @@ def main():
                 "alternates": alternates(page, root),
                 "footer": footer(lang, root, strings),
                 "redirect": "",
+                "contact_email": CONTACT_EMAIL,
             }
             if source is None:
-                if lang == LANGUAGES[0]:
+                # Only the home page sends first-time visitors to their language.
+                if lang == LANGUAGES[0] and page == "index.html":
                     values["redirect"] = REDIRECT % (json.dumps(LANGUAGES[1:]), json.dumps(lang))
             else:
                 docx = ROOT / "legal" / lang / source

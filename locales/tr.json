@@ -128,12 +128,45 @@
     "made": "© Livro",
     "contact": "İletişim",
     "label": "Alt bilgi",
-    "about": "Hakkında"
+    "about": "Hakkında",
+    "support": "Destek"
   },
   "legal": {
     "eyebrow": "Yasal",
     "contents": "İçindekiler",
     "terms": "Kullanım Koşulları",
     "privacy": "Gizlilik Politikası"
+  },
+  "support": {
+    "page_title": "Destek",
+    "meta_description": "Livro yardım sayfası: ekibe ulaşın; çizgi roman, giriş, abonelik ve hesap sorunlarına çözüm bulun.",
+    "eyebrow": "Destek",
+    "title": "Size nasıl yardımcı olabiliriz?",
+    "intro": "Çoğu sorunun cevabı aşağıda. Sizinkini bulamazsanız bize yazın — her mesajı Livro ekibinden gerçek bir kişi okur.",
+    "email_title": "Bize e-posta gönderin",
+    "email_text": "Türkçe, İngilizce veya Almanca yazabilirsiniz. En kısa sürede yanıt veririz.",
+    "include_title": "Size daha hızlı yardımcı olabilmemiz için şunları ekleyin",
+    "include_1": "iPhone modeliniz ve iOS sürümünüz",
+    "include_2": "Nasıl giriş yaptığınız: Apple veya Google",
+    "include_3": "Konu bir çizgi romansa, günlüğün tarihi",
+    "include_4": "Ne olduğu ve varsa bir ekran görüntüsü. Günlük metninizi göndermenize gerek yok.",
+    "faq_eyebrow": "Sık sorulanlar",
+    "faq_title": "Hızlı çözümler.",
+    "q_failed": "Çizgi roman sayfam oluşturulmadı. Ne yapmalıyım?",
+    "a_failed": "Çizim başarısız olsa bile günlüğünüz her zaman kaydedilir. Uygulamada o günü açın ve <strong>Tekrar Dene</strong>'ye dokunun. Her gün için deneme sayısı sınırlıdır ve uygulama ne kadar süre daha deneyebileceğinizi gösterir. Tekrar deneme Premium'un bir parçasıdır. Sorun devam ederse günlüğün tarihiyle birlikte <a href=\"#contact\">bize yazın</a>.",
+    "q_signin": "Giriş yapamıyorum.",
+    "a_signin": "İnternet bağlantınızı kontrol edip tekrar deneyin. İlk seferde kullandığınız yöntemi — Apple veya Google — kullanın, çünkü günlüğünüz ve çizgi romanlarınız o hesaba aittir. Yine olmazsa <a href=\"#contact\">bize yazın</a> ve hangi yöntemi kullandığınızı belirtin.",
+    "q_restore": "Premium için ödeme yaptım ama uygulamada görünmüyor.",
+    "a_restore": "<strong>Profil → Premium</strong>'a gidin ve <strong>Satın Alımları Geri Yükle</strong>'ye dokunun. iPhone'unuzda abone olurken kullandığınız Apple Kimliği ile giriş yapılmış olduğundan emin olun. Bu, yeni bir iPhone'a geçtikten sonra da işe yarar.",
+    "q_refund": "Nasıl iade alabilirim?",
+    "a_refund": "Abonelikler Apple tarafından satılır ve faturalandırılır; bu yüzden iadeleri Livro değil Apple yönetir. İade talebinizi <a href=\"https://reportaproblem.apple.com\">reportaproblem.apple.com</a> adresinden iletebilirsiniz.",
+    "q_notifications": "Bildirim almıyorum.",
+    "a_notifications": "Uygulamada <strong>Profil → Bildirimler</strong> altında bildirimlerin açık olduğunu kontrol edin. Ardından iPhone'unuzda <strong>Ayarlar → Bildirimler → Livro</strong>'yu açın ve <strong>Bildirimlere İzin Ver</strong>'in açık olduğundan emin olun.",
+    "q_download": "Çizgi romanlarımı nasıl indiririm?",
+    "a_download": "Premium üyeler tek bir çizgi roman sayfasını ya da bütün bir ayı, bölüm kartından PDF bölüm olarak indirebilir. Bir ayın bölümü, ay bittikten sonra indirilebilir; çünkü o zamana kadar bölüme hâlâ sayfa ekleyebilirsiniz.",
+    "q_delete": "Hesabımı nasıl silerim?",
+    "a_delete": "<strong>Profil → Hesabı Sil</strong>'e gidin. Bu işlem günlüğünüzü, çizgi romanlarınızı ve karakterinizi kalıcı olarak siler ve geri alınamaz; saklamak istediklerinizi önce indirin. Hesabınızı silmek aboneliğinizi iptal etmez; aboneliği Apple hesap ayarlarınızdan iptal edin.",
+    "q_data": "Verilerimin bir kopyasını nasıl alabilirim?",
+    "a_data": "<a href=\"#contact\">Bize e-posta gönderin</a>; günlük metniniz dahil, hakkınızda tuttuğumuz kişisel verilerin bir kopyasını size gönderelim. Neleri neden sakladığımızı <a href=\"privacy.html\">Gizlilik Politikası</a> açıklar."
   }
 }

@@ -128,12 +128,45 @@
     "made": "© Livro",
     "contact": "Contact",
     "label": "Footer",
-    "about": "About"
+    "about": "About",
+    "support": "Support"
   },
   "legal": {
     "eyebrow": "Legal",
     "contents": "Contents",
     "terms": "Terms of Service",
     "privacy": "Privacy Policy"
+  },
+  "support": {
+    "page_title": "Support",
+    "meta_description": "Help with Livro: contact the team and fix common problems with comics, sign-in, subscriptions and your account.",
+    "eyebrow": "Support",
+    "title": "How can we help?",
+    "intro": "Most questions are answered below. If yours isn't, write to us — a real person on the Livro team reads every message.",
+    "email_title": "Email us",
+    "email_text": "Write in English, Turkish or German. We'll reply as soon as we can.",
+    "include_title": "To help us help you faster, include",
+    "include_1": "Your iPhone model and iOS version",
+    "include_2": "How you sign in: Apple or Google",
+    "include_3": "The date of the entry, if it's about a comic",
+    "include_4": "What happened, plus a screenshot if you have one. You don't need to send your diary text.",
+    "faq_eyebrow": "Common questions",
+    "faq_title": "Quick fixes.",
+    "q_failed": "My comic page wasn't created. What now?",
+    "a_failed": "Your diary entry is always saved, even if drawing fails. Open that day in the app and tap <strong>Try Again</strong>. Each day has a limited number of attempts, and the app shows how long you can still try. Trying again is part of Premium. If it keeps failing, <a href=\"#contact\">contact us</a> with the date of the entry.",
+    "q_signin": "I can't sign in.",
+    "a_signin": "Check your internet connection and try again. Use the same method you used the first time — Apple or Google — because your diary and comics belong to that account. If it still doesn't work, <a href=\"#contact\">contact us</a> and tell us which method you use.",
+    "q_restore": "I paid for Premium, but the app doesn't show it.",
+    "a_restore": "Go to <strong>Profile → Premium</strong> and tap <strong>Restore Purchases</strong>. Make sure your iPhone is signed in to the same Apple ID you subscribed with. This also works after moving to a new iPhone.",
+    "q_refund": "How do I get a refund?",
+    "a_refund": "Subscriptions are sold and billed by Apple, so Apple handles refunds, not Livro. You can request one at <a href=\"https://reportaproblem.apple.com\">reportaproblem.apple.com</a>.",
+    "q_notifications": "I don't get notifications.",
+    "a_notifications": "In the app, check that notifications are on under <strong>Profile → Notifications</strong>. Then open your iPhone's <strong>Settings → Notifications → Livro</strong> and make sure <strong>Allow Notifications</strong> is on.",
+    "q_download": "How do I download my comics?",
+    "a_download": "Premium members can download any single comic page, or a whole month as a PDF chapter from its chapter card. A month's chapter can be downloaded once the month is over, because until then you can still add pages to it.",
+    "q_delete": "How do I delete my account?",
+    "a_delete": "Go to <strong>Profile → Delete Account</strong>. This permanently deletes your diary, your comics and your character, and it can't be undone, so download anything you want to keep first. Deleting your account doesn't cancel your subscription; cancel it in your Apple account settings.",
+    "q_data": "How can I get a copy of my data?",
+    "a_data": "<a href=\"#contact\">Email us</a> and we'll send you a copy of the personal data we hold about you, including your diary text. The <a href=\"privacy.html\">Privacy Policy</a> explains what we store and why."
   }
 }
